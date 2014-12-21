@@ -12,11 +12,13 @@ set guioptions=acm
 		set guifont=Consolas:h11
 	else
 		"set guifont=Bitstream\ Vera\ Sans\ Mono\ 10
-		set guifont=DejaVu\ Sans\ Mono\ 10
+		set guifont=DejaVu\ Sans\ Mono\ 11
 	endif
 	"colorscheme lucius
 	"LuciusBlack 
 	"LuciusLight
-"	winpos 0 0
+	winpos 0 0
+	colorscheme monokai
+	syntax enable
 	set lines=40 columns=100
 "endif
