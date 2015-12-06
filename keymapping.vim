@@ -19,3 +19,18 @@ func! CompileRunGcc()
 endfunc  
 
 map <C-F12> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR> 
+
+cmap w!! w !sudo tee % >/dev/null
+
+nnoremap <leader>mm :call MakeMenu()<CR>
+function! MakeMenu()
+   let l:myMakeTargets = ["abort", "", "tags", "clean", "build", "test", "doc"]
+   let l:c = 0
+   let l:c = confirm("Make Menu","&make\nta&gs\n&clean\n&build\n&test\n&doc")
+   if l:c != 0
+		exe "make " . l:myMakeTargets[l:c]
+   endif
+endfunction
+
+inoremap jk <ESC>
+let mapleader = ","
