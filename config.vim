@@ -84,3 +84,6 @@ set hid
 set tabstop=4 shiftwidth=4 noexpandtab
 
 set makeprg=gcc\ -o\ %<\ %
+
+set clipboard=unnamed
+" set clipboard=unnamedplus
