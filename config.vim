@@ -90,3 +90,4 @@ set clipboard=unnamedplus
 set showmatch
 
 let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
