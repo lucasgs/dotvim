@@ -14,7 +14,7 @@ Bundle 'kien/ctrlp.vim'
 "UI
 Bundle 'bling/vim-airline'
 Bundle 'scrooloose/nerdtree'
-Bundle 'vim-scripts/Colour-Sampler-Pack'
+"Bundle 'vim-scripts/Colour-Sampler-Pack'
 
 " Commands
 Bundle 'tpope/vim-surround'
@@ -22,11 +22,11 @@ Bundle 'tpope/vim-surround'
 Bundle 'jiangmiao/auto-pairs'
 Bundle 'https://github.com/scrooloose/nerdcommenter.git'
 
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "garbas/vim-snipmate"
+"Bundle "MarcWeber/vim-addon-mw-utils"
+"Bundle "tomtom/tlib_vim"
+"Bundle "garbas/vim-snipmate"
 " Optional:
-Bundle "honza/vim-snippets"
+"Bundle "honza/vim-snippets"
 
 call vundle#end()            " required
 filetype plugin indent on    " required

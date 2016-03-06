@@ -32,5 +32,8 @@ function! MakeMenu()
    endif
 endfunction
 
+map <leader>s :source ~/.vimrc<CR>
+
 inoremap jk <ESC>
+
 let mapleader = ","

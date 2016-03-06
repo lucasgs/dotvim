@@ -83,6 +83,10 @@ set hid
 "Change tab wide
 set tabstop=4 shiftwidth=4 noexpandtab
 
-set makeprg=gcc\ -o\ %<\ %
-
+"Use system clipboard to copy/cut/paste
 set clipboard=unnamedplus
+
+"Highlight matching parenthesis
+set showmatch
+
+let NERDTreeShowHidden=1
