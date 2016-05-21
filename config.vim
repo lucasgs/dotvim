@@ -89,5 +89,8 @@ set clipboard=unnamedplus
 "Highlight matching parenthesis
 set showmatch
 
+"Encryption algorithm
+set cm=blowfish2
+
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
