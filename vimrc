@@ -6,27 +6,29 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 " let Vundle manage Vundle, required
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 "Navigation
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
 "UI
-Bundle 'bling/vim-airline'
-Bundle 'scrooloose/nerdtree'
-"Bundle 'vim-scripts/Colour-Sampler-Pack'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+"Plugin 'vim-scripts/Colour-Sampler-Pack'
 
 " Commands
-Bundle 'tpope/vim-surround'
-"Bundle 'ervandew/supertab'
-Bundle 'jiangmiao/auto-pairs'
-Bundle 'https://github.com/scrooloose/nerdcommenter.git'
+Plugin 'tpope/vim-surround'
+"Plugin 'ervandew/supertab'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'https://github.com/scrooloose/nerdcommenter.git'
 
-"Bundle "MarcWeber/vim-addon-mw-utils"
-"Bundle "tomtom/tlib_vim"
-"Bundle "garbas/vim-snipmate"
+"Plugin "MarcWeber/vim-addon-mw-utils"
+"Plugin "tomtom/tlib_vim"
+"Plugin "garbas/vim-snipmate"
 " Optional:
-"Bundle "honza/vim-snippets"
+"Plugin "honza/vim-snippets"
+
+Plugin 'andreshazard/vim-logreview'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
