@@ -29,6 +29,7 @@ Plugin 'https://github.com/scrooloose/nerdcommenter.git'
 "Plugin "honza/vim-snippets"
 
 Plugin 'andreshazard/vim-logreview'
+Plugin 'terryma/vim-expand-region'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
