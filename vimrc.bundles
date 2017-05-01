@@ -1,0 +1,22 @@
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+"Navigation
+Plugin 'kien/ctrlp.vim'
+
+"UI
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/nerdtree'
+
+" Commands
+Plugin 'tpope/vim-surround'
+"Plugin 'jiangmiao/auto-pairs'
+Plugin 'scrooloose/nerdcommenter'
+
+" Track the engine.
+"Plugin 'SirVer/ultisnips'
+
+" Snippets are separated from the engine. Add this if you want them:
+"Plugin 'honza/vim-snippets'
+
+Plugin 'jalvesaq/Nvim-R'

@@ -5,31 +5,10 @@ filetype off                  " required
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-"Navigation
-Plugin 'kien/ctrlp.vim'
-
-"UI
-Plugin 'bling/vim-airline'
-Plugin 'scrooloose/nerdtree'
-"Plugin 'vim-scripts/Colour-Sampler-Pack'
-
-" Commands
-Plugin 'tpope/vim-surround'
-"Plugin 'ervandew/supertab'
-Plugin 'jiangmiao/auto-pairs'
-Plugin 'https://github.com/scrooloose/nerdcommenter.git'
-
-"Plugin "MarcWeber/vim-addon-mw-utils"
-"Plugin "tomtom/tlib_vim"
-"Plugin "garbas/vim-snipmate"
-" Optional:
-"Plugin "honza/vim-snippets"
-
-Plugin 'andreshazard/vim-logreview'
-Plugin 'terryma/vim-expand-region'
+if filereadable(expand("~/.vim/vimrc.bundles"))
+  source ~/.vim/vimrc.bundles
+  "source ~/.vimrc.bundles.local
+endif
 
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -84,7 +84,7 @@ set hid
 set tabstop=4 shiftwidth=4 noexpandtab
 
 "Use system clipboard to copy/cut/paste
-set clipboard=unnamedplus
+set clipboard=unnamed,unnamedplus
 
 "Highlight matching parenthesis
 set showmatch
@@ -94,3 +94,8 @@ set cm=blowfish2
 
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.DS_Store', '\~$', '\.swp']
+
+let R_in_buffer = 0
+let R_applescript = 0
+let R_tmux_split = 1
+
