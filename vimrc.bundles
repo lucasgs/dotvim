@@ -20,3 +20,5 @@ Plugin 'scrooloose/nerdcommenter'
 "Plugin 'honza/vim-snippets'
 
 Plugin 'jalvesaq/Nvim-R'
+
+Plugin 'udalov/kotlin-vim'
