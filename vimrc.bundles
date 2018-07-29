@@ -19,6 +19,8 @@ Plugin 'scrooloose/nerdcommenter'
 " Snippets are separated from the engine. Add this if you want them:
 "Plugin 'honza/vim-snippets'
 
-Plugin 'jalvesaq/Nvim-R'
+"Plugin 'jalvesaq/Nvim-R'
 
 Plugin 'udalov/kotlin-vim'
+
+Plugin 'dart-lang/dart-vim-plugin'
